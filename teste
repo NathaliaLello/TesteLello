@@ -1,7 +1,16 @@
-echo "# TesteLello" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/NathaliaLello/TesteLello.git
-git push -u origin main 
+import { Client } from "@hubspot/api-client";
+const hubspotClient = new Client({ accessToken: YOUR_ACCESS_TOKEN })
+
+const Extension = () => {
+    return (
+      <Checkbox
+        checked={isSuperAdmin}
+        name="adminCheck"
+        description="Select to grant superpowers"
+      >
+        Super Admin
+      </Checkbox>
+      
+
+    );
+ };
