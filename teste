@@ -1,5 +1,7 @@
 import { Client } from "@hubspot/api-client";
-const hubspotClient = new Client({ accessToken: YOUR_ACCESS_TOKEN })
+const hubspotClient = new Client({ accessToken: CiQ3Yjc0YTljMi1jZDM0LTQ0YjgtOWVhZC1iZmIyNWIzZDBhZmQQvpmjChjTgZUVKhkABeaRglg1Y1npAWzaVfZXczxY6rZTeuK0SgNuYTE })
+
+
 
 const Extension = () => {
     return (
